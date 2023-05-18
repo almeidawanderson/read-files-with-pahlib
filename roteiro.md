@@ -2,3 +2,7 @@
 2: PathLib - O básico necessário;
 3: Resolvendo problemas - Usando a pathLib;
 4: Extras - Pathlib, aioPathLib
+
+
+--- RESALVAS:
+de acordo, com o sistema operacional o caminho de diretórios/pastas/arquivos mudam.
