@@ -1,11 +1,11 @@
 import requests
-import global_vars
+import pycomm3
 
-def verify_valid_moldens():
-  return request.post(global_vars.API_URL + '/moldens/verify-valid-moldens',
-    json=global_vars.moldens_to_verify,
-    headers=global_vars.headers).json
-  
+from pycomm3 import LogixDriver
 
+with LogixDriver('192.168.1.5') as plc:
+  print(plc)
   
+  print(plc._cip_path)
+ 
   
